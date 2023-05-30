@@ -1,0 +1,52 @@
+
+.page-header{
+	padding: 10px;
+  padding-left:20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+	display: grid;
+  grid-template-columns:10px 400px;
+	justify-content: center;
+	align-items: center;
+}
+body{
+  margin:0;
+  }
+ul{
+
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  }
+  *{
+  	font-family: "Trebuchet MS", sans-serif;
+  }
+
+  header, footer {
+  	background: rgb(0,120,191);
+  	color: white;
+  }
+
+  ul {
+  	background: rgb(62,183,255);
+  	color:black;
+  }
+  li{
+  	list-style: none;
+  	padding: 10px 10px 10px 25px;
+  	background: white;
+  	position:relative;
+
+  }
+  li:before{
+  	display: block;
+  	content: "";
+  	position: absolute;
+  	top:0;
+  	left:0;
+  	width: 2px;
+  	height: 100%;
+  	background: blue;
+  }
